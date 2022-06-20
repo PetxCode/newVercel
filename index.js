@@ -23,3 +23,5 @@ app.use("/api/user", require("./controller/userRouter"));
 app.listen(port, () => {
 	console.log(`listening to port ${port}`);
 });
+
+module.exports = app;
